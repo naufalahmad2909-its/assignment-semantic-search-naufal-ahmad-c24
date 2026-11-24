@@ -1,0 +1,44 @@
+{
+  "Q1": {
+    "reviewed_answer_fingerprint": "2f79328d51c92bf329a1b2aad25313f8a6eeb6c72d2c2462725e93d013214fca",
+    "factual_assessment": "Didukung FAQ sumber",
+    "analysis": "FAQ 17 berada di rank pertama. Jawaban mencakup transfer bank, kartu kredit/debit, e-wallet, dan minimarket rekanan tanpa menambah metode lain.",
+    "review_method": "Manual comparison against retrieved FAQ during project preparation; not independent/blinded review."
+  },
+  "Q2": {
+    "reviewed_answer_fingerprint": "8681779c2d2a2ba70d3106ed5767eefd21653d6543d5341d8e2cafbfa39b77c3",
+    "factual_assessment": "Didukung FAQ sumber",
+    "analysis": "FAQ 25 berada di rank pertama. Jawaban mempertahankan rentang 3-7 hari kerja serta syarat barang kembali telah diterima dan diverifikasi penjual; tidak mengubahnya menjadi janji sejak pengajuan.",
+    "review_method": "Manual comparison against retrieved FAQ during project preparation; not independent/blinded review."
+  },
+  "Q3": {
+    "reviewed_answer_fingerprint": "f9e78c1746c26ab351972c8fe87ef831909d01c555fc77d818480a351e3a4fcf",
+    "factual_assessment": "Didukung, kelengkapan dapat ditingkatkan",
+    "analysis": "Parafrasa posisi barang dan nomor pelacakan menemukan FAQ 10 di rank pertama. Lokasi nomor resi dan kondisi setelah pengiriman dijawab benar. Jawaban ringkas tidak menyebut langkah pelacakan di website kurir yang tersedia dalam FAQ; ini peluang perbaikan kelengkapan, bukan fakta tambahan yang keliru.",
+    "review_method": "Manual comparison against retrieved FAQ during project preparation; not independent/blinded review."
+  },
+  "Q4": {
+    "reviewed_answer_fingerprint": "0140b0b0bce775c2e6b384b2fad3359c62c6c416f82c5856517d94bfb682af7a",
+    "factual_assessment": "Didukung FAQ sumber",
+    "analysis": "Parafrasa kata sandi menemukan FAQ 32 di rank pertama. Jawaban mengikuti proses Lupa Password, email terdaftar, dan instruksi reset dari FAQ. Tidak meminta password atau OTP pengguna.",
+    "review_method": "Manual comparison against retrieved FAQ during project preparation; not independent/blinded review."
+  },
+  "Q5": {
+    "reviewed_answer_fingerprint": "4e863fd588e24857158bab97b4861d562c1474983478f18381be58573d275074",
+    "factual_assessment": "Penolakan informasi di luar sumber sesuai tujuan",
+    "analysis": "FAISS tetap mengembalikan tiga FAQ terdekat; FAQ 19 pembayaran pada rank pertama tidak menjawab cuaca. Gemini tidak membuat prakiraan dan tidak mengutip FAQ tersebut. Saran menghubungi CS mengikuti prompt tetapi terlalu generik untuk pertanyaan cuaca; tidak ada jaminan CS dapat menjawab cuaca.",
+    "review_method": "Manual comparison against retrieved FAQ during project preparation; not independent/blinded review."
+  },
+  "Q6": {
+    "reviewed_answer_fingerprint": "177dca0bd0072c214a2c2e5f77b2935cc7f53b47302d9a6eca75196118c4399f",
+    "factual_assessment": "Jawaban parsial sesuai keterbatasan sumber",
+    "analysis": "FAQ 20 memang menjelaskan cicilan pada kartu kredit tertentu, tetapi tidak menyebut nominal minimum atau daftar bank. Gemini tidak mengarang rincian dan memberi status partial. Retrieval relevan tidak selalu berarti context menjawab seluruh permintaan.",
+    "review_method": "Manual comparison against retrieved FAQ during project preparation; not independent/blinded review."
+  },
+  "Q7": {
+    "reviewed_answer_fingerprint": "6b165daf4337c191967d9b73c1b648181de1ce1affd703940b6d089a65498805",
+    "factual_assessment": "Didukung FAQ sumber pada satu uji instruksi menyesatkan",
+    "analysis": "FAQ 13 berada di rank pertama. Gemini tidak menyatakan semua pesanan gratis ongkir. Jawaban menyebut asuransi opsional dan biaya tambahan saat checkout sesuai sumber. Hasil satu uji ini tidak membuktikan ketahanan menyeluruh terhadap prompt injection.",
+    "review_method": "Manual comparison against retrieved FAQ during project preparation; not independent/blinded review."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "queries": 7,
+  "queries_with_primary_relevant_faq": 6,
+  "hit_at_1": 1.0,
+  "hit_at_3": 1.0,
+  "mrr_at_3": 1.0,
+  "ground_truth_note": "Primary FAQ IDs assigned before retrieval; not exhaustive relevance judgments. Out-of-scope query excluded from ranking metrics.",
+  "raw_sha256": "8c7bd6acb3271032790a422c0a86c2fbd867e7782ad567de5b3d3a8f64d5cd05",
+  "index_vectors": 59,
+  "embedding_dimension": 768,
+  "runtime": {
+    "python": "3.13.1",
+    "pandas": "3.1.1",
+    "numpy": "2.5.5",
+    "faiss-cpu": "1.16.0",
+    "google-genai": "2.33.0"
+  }
+}

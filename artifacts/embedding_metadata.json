@@ -1,0 +1,1613 @@
+{
+  "identity": {
+    "raw_sha256": "8c7bd6acb3271032790a422c0a86c2fbd867e7782ad567de5b3d3a8f64d5cd05",
+    "model": "gemini-embedding-2",
+    "dimension": 768,
+    "document_format": "title: {question} | text: {content}",
+    "faq_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "contents_sha256": "d9ece725a1f17af6cca3ddd63acea2a518430426765d56d70514357edc582205"
+  },
+  "source": "real_gemini_embeddings_api",
+  "shape": [
+    59,
+    768
+  ],
+  "dtype": "float32",
+  "vectors_sha256": "82df593c0476e4ab87da4daf21979d085c8d01a2f3675d68e6ac6853f211e6ec",
+  "api_records": [
+    {
+      "faq_id": 1,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "8827c7f5591fb79894f26bada00633ead1d5c24cbcd1b0d3ca3c1856cd0b646f",
+      "requested_at_utc": "2026-11-24T21:25:36.999775+00:00",
+      "latency_seconds": 0.5499205000232905,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:36 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=412",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 2,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "ad851098e22f8c6589629c7cb43229a3ff675f8d38b4e83c2c7ce28f8ac93be9",
+      "requested_at_utc": "2026-11-24T21:25:37.437334+00:00",
+      "latency_seconds": 0.43745769996894524,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:37 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=402",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 3,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "000e12fdce1d7838e1368b70a527bf0dcd106b0284ecd341a4e22632a4ac69ee",
+      "requested_at_utc": "2026-11-24T21:25:37.861450+00:00",
+      "latency_seconds": 0.4240429999772459,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:37 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=388",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 4,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "6115e7381cb7f5e33e279aa0147e48e71391e15e933dec63b65692eba4301d19",
+      "requested_at_utc": "2026-11-24T21:25:38.291548+00:00",
+      "latency_seconds": 0.4299808000214398,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:38 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=377",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 5,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "9e8064eb69de97b9ad5210d8e34ebac291827e17d4565174c439b858e5a0cb06",
+      "requested_at_utc": "2026-11-24T21:25:38.714851+00:00",
+      "latency_seconds": 0.4232111999881454,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:38 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=373",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 6,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "d330986f36e7373495632b3727808bd633417080664d6d989b00a236d62f66db",
+      "requested_at_utc": "2026-11-24T21:25:39.168832+00:00",
+      "latency_seconds": 0.453869900025893,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:38 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=418",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 7,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "18246cb4e3ee793bc1a753a073a89a622d0e7c0ff3d45fa40ee4fda616db7d33",
+      "requested_at_utc": "2026-11-24T21:25:39.641929+00:00",
+      "latency_seconds": 0.47302269999636337,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:39 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=438",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 8,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "9c65afbcf6bd0e4b6b53b488db09d4a0918f635f762949951e9d403cf8cec94f",
+      "requested_at_utc": "2026-11-24T21:25:40.053523+00:00",
+      "latency_seconds": 0.41150990000460297,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:39 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=376",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 9,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "15252dec6d00d68416bdc22c12d303ab2c849d3b02ecc01a0a574029c3e13a91",
+      "requested_at_utc": "2026-11-24T21:25:40.506895+00:00",
+      "latency_seconds": 0.4532933000009507,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:40 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=418",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 10,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "3b5a173340ef8086aa31d3a9c27353b783b2a0165d2c4674f21bcc2e23ba94d7",
+      "requested_at_utc": "2026-11-24T21:25:40.972461+00:00",
+      "latency_seconds": 0.46547699999064207,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:40 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=419",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 11,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "e0cf2878ba0e4286ca114ec20b14fd683d12df2a1b16088d4286ae8177614719",
+      "requested_at_utc": "2026-11-24T21:25:41.392342+00:00",
+      "latency_seconds": 0.41968599997926503,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:41 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=383",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 12,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "a499d1a56107e77c940b98b19955434c612e17878a0f9361ed80844fbe1b130e",
+      "requested_at_utc": "2026-11-24T21:25:41.859995+00:00",
+      "latency_seconds": 0.46755599998869,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:41 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=419",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 13,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "90ec2650bacf4a594dc61d3b4ce7b3eb47cbad432e5864b99ceacd2af4ea2bf0",
+      "requested_at_utc": "2026-11-24T21:25:42.328457+00:00",
+      "latency_seconds": 0.46833100001094863,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:42 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=421",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 14,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "06ee749424932a52b73593a9a58e8836ed16e5bbb717f5e5660f22aa759aef41",
+      "requested_at_utc": "2026-11-24T21:25:42.777690+00:00",
+      "latency_seconds": 0.44913419999647886,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:42 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=414",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 15,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "96fea7992d5332f355d8722ae33f508b5c1df451f5a3d16ef4e6ae8a67b95c66",
+      "requested_at_utc": "2026-11-24T21:25:43.248064+00:00",
+      "latency_seconds": 0.4702996999840252,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:43 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=424",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 16,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "6e957e8a78dd135600f558291a406a1365f551f35c1f58523151b119071b29c2",
+      "requested_at_utc": "2026-11-24T21:25:43.688426+00:00",
+      "latency_seconds": 0.4402630000258796,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:43 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=405",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 17,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "c810456cb78e753f207c817f6770fa95d194cc0a9be6eb1e80ca40af10270b2f",
+      "requested_at_utc": "2026-11-24T21:25:44.140832+00:00",
+      "latency_seconds": 0.4522197000333108,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:43 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=416",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 18,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "b08f6f5f0bd1a6630f43ede13448b5ac293dda42b678cd4f218c904b92fdd7fd",
+      "requested_at_utc": "2026-11-24T21:25:44.572968+00:00",
+      "latency_seconds": 0.4320148000260815,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:44 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=385",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 19,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "390db88e66be778c77fa83055c9c210ef4087e4915a355bb8b4f9d779a93361d",
+      "requested_at_utc": "2026-11-24T21:25:45.003178+00:00",
+      "latency_seconds": 0.4300836999900639,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:44 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=393",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 20,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "c455647f83927128de3f205dc58d7505bbfea05c1079bd2967c378b83bfc70e7",
+      "requested_at_utc": "2026-11-24T21:25:45.477762+00:00",
+      "latency_seconds": 0.4745115000405349,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:45 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=428",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 21,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "900c7e6d9f6f253c7ecbc7d039317fa0bf8948f78fa5a78a237ff39fb7efcc77",
+      "requested_at_utc": "2026-11-24T21:25:45.892233+00:00",
+      "latency_seconds": 0.41436469997279346,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:45 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=379",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 22,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "c00a3e610afa2dd023e43238c2421bbb0e9efa279cf96a0452ef337de1e7d495",
+      "requested_at_utc": "2026-11-24T21:25:46.313598+00:00",
+      "latency_seconds": 0.4212448999751359,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:46 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=385",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 23,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "4f6caa273c4d3102c9c8d3a994b6ce6ba7d88e236caf4380f81990baf8e6cdd9",
+      "requested_at_utc": "2026-11-24T21:25:46.798100+00:00",
+      "latency_seconds": 0.4844281999976374,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:46 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=433",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 24,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "97301bd8264adca0c6c051cfa1bc3aadcc12acbbf8c2133265454fa08d319cfe",
+      "requested_at_utc": "2026-11-24T21:25:47.238177+00:00",
+      "latency_seconds": 0.43998839997220784,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:47 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=394",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 25,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "b85e9287f22836edc324ad344cf295af99f8dee6269e97a85de1d6e6c31e1009",
+      "requested_at_utc": "2026-11-24T21:25:47.682451+00:00",
+      "latency_seconds": 0.4441979000112042,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:47 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=409",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 26,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "272add6271db84a33c30a0c99c4d3df5e98488ea13aa0e2c04733725869be514",
+      "requested_at_utc": "2026-11-24T21:25:48.127976+00:00",
+      "latency_seconds": 0.44544739997945726,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:47 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=412",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 27,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "fd1c7d2b51db4e7f9e60541a567e20c86b06e44caf68a1aff6dad781bc67a947",
+      "requested_at_utc": "2026-11-24T21:25:48.584786+00:00",
+      "latency_seconds": 0.45671909995144233,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:48 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=410",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 28,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "3323d581fd3dad3de4ce3eeca9e25828e6e5b0640d4bbd557de7d5193ffbab4d",
+      "requested_at_utc": "2026-11-24T21:25:49.055011+00:00",
+      "latency_seconds": 0.4701445000246167,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:48 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=423",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 29,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "c8c453dc21ece1322eb52d2a6c2837bba932641d6f97328d8651c0fc3edbe7ad",
+      "requested_at_utc": "2026-11-24T21:25:49.520079+00:00",
+      "latency_seconds": 0.4649595000082627,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:49 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=417",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 30,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "f7c98f21198379e945ce7b94aa50aa3e3a7d32544dd930cbc9a3c7b820373dfe",
+      "requested_at_utc": "2026-11-24T21:25:49.972320+00:00",
+      "latency_seconds": 0.45217419997788966,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:49 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=404",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 31,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "f55c9eafc24836fa1f50740d970dbe2f559510acd5b7e28f71398a5f617f9f06",
+      "requested_at_utc": "2026-11-24T21:25:50.384911+00:00",
+      "latency_seconds": 0.4124102999921888,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:50 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=377",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 32,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "e8379ff0f84fa0c58e059709bd4c77e1591d6a3f7b64e30ad8b0cf85f5cf5c87",
+      "requested_at_utc": "2026-11-24T21:25:50.810818+00:00",
+      "latency_seconds": 0.4258016999810934,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:50 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=390",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 33,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "c3c1e3adfeb2e359eb8a73d625d99c8bf02dcbc35e4fab30a8d20020d8f363f1",
+      "requested_at_utc": "2026-11-24T21:25:51.239387+00:00",
+      "latency_seconds": 0.4284973000176251,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:51 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=394",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 34,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "8715e94573887d4d057a2aada87553ad773982fefd7e34a04cfd745cc936540a",
+      "requested_at_utc": "2026-11-24T21:25:51.676121+00:00",
+      "latency_seconds": 0.4366557999746874,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:51 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=389",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 35,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "e0e2f32f34348e2f00d5547596e6a9ced28d3f7f57d6870c021a6d0c2e52c83a",
+      "requested_at_utc": "2026-11-24T21:25:52.110845+00:00",
+      "latency_seconds": 0.43464099999982864,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:51 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=400",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 36,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "1eb47170b17d0e92312863e777c3157c98837d5ff327e348893cfa47ce203825",
+      "requested_at_utc": "2026-11-24T21:25:52.508098+00:00",
+      "latency_seconds": 0.39715220005018637,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:52 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=350",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 37,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "d9b08407c1d935052c7e3b850d67524ce2303971ed4c1e1a769f8fe53865d8a1",
+      "requested_at_utc": "2026-11-24T21:25:52.955198+00:00",
+      "latency_seconds": 0.4470168999978341,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:52 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=411",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 38,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "087675cc25ab0e663b5c338f8dbb76ad6f769a6a917a65a0eb2d7d596252bae7",
+      "requested_at_utc": "2026-11-24T21:25:53.391193+00:00",
+      "latency_seconds": 0.4358936999924481,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:53 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=389",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 39,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "74c015382e30b6f8bd6a3c3c38950e87f6681cc61fa5a581f39eb2a8433cbe86",
+      "requested_at_utc": "2026-11-24T21:25:53.826780+00:00",
+      "latency_seconds": 0.435471199976746,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:53 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=388",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 40,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "cf4d7c9e299137d9da2631ed7c77cb7320855cfb0efaa754d55d09cc821fd271",
+      "requested_at_utc": "2026-11-24T21:25:54.219661+00:00",
+      "latency_seconds": 0.39279219997115433,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:53 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=358",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 41,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "a1d16e38454fc59fc56b9bf07c5f4b42e97dfcd65f8a547e254d8d2ddc79a8bc",
+      "requested_at_utc": "2026-11-24T21:25:54.641116+00:00",
+      "latency_seconds": 0.42134150001220405,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:54 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=374",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 42,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "2a8cf3fa9eb8f03b4cde5777c3c1b97596444022ecb6fee8c4fa1b07471d5427",
+      "requested_at_utc": "2026-11-24T21:25:55.055070+00:00",
+      "latency_seconds": 0.41382839996367693,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:54 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=366",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 43,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "65ca1bb28d073c440ae61bd5c02633f32546b608bae9b7d5bd4bf684f2192dbe",
+      "requested_at_utc": "2026-11-24T21:25:55.493437+00:00",
+      "latency_seconds": 0.43828709999797866,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:55 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=401",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 44,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "1b13a5500de4283c1093138f94e576eea8ed2931ce5f6333de5a40d06e04cb6d",
+      "requested_at_utc": "2026-11-24T21:25:55.936546+00:00",
+      "latency_seconds": 0.4429805000545457,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:55 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=389",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 45,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "cb2ce56e06c051060eecab2f44d8e6864144e9915b53e8cc86d133002a2f9a2d",
+      "requested_at_utc": "2026-11-24T21:25:56.381467+00:00",
+      "latency_seconds": 0.44483920000493526,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:56 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=394",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 46,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "49f330b0b8d955c9e48603a5876c369708d947a787a40bda6d85ac79522484d8",
+      "requested_at_utc": "2026-11-24T21:25:56.786546+00:00",
+      "latency_seconds": 0.40499509999062866,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:56 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=358",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 47,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "f7147a2c3481b5f6575ec0eed114fc24d551f98ed0a94dfbccd07d31f3bce866",
+      "requested_at_utc": "2026-11-24T21:25:57.199530+00:00",
+      "latency_seconds": 0.41289929999038577,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:56 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=366",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 48,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "c87173f2809d050d8c61198858ad989b413af0d90e849e232ef514e8eb5b16ab",
+      "requested_at_utc": "2026-11-24T21:25:57.638327+00:00",
+      "latency_seconds": 0.43871499999659136,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:57 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=392",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 49,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "e6516b397148710af4f947964ee55f9088e20e2a4e06e9ac16496ce87d39ae05",
+      "requested_at_utc": "2026-11-24T21:25:58.040743+00:00",
+      "latency_seconds": 0.40234619996044785,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:57 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=354",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 50,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "95a6152cdf3cf52036b3e98a2831da1e6c0f2d67ea548b68f680925f0992d13d",
+      "requested_at_utc": "2026-11-24T21:25:58.443758+00:00",
+      "latency_seconds": 0.4029007999924943,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:58 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=356",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 51,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "72a4fc140795d2166136aa24c7a8b88d969905609a358e692d56389f65f34950",
+      "requested_at_utc": "2026-11-24T21:25:58.881941+00:00",
+      "latency_seconds": 0.43805060000158846,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:58 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=390",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 52,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "4eb3499a1264f54beaf5009252589282e197114a4af6ff75ae1e6306032bf87d",
+      "requested_at_utc": "2026-11-24T21:25:59.337305+00:00",
+      "latency_seconds": 0.4552830000175163,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:59 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=408",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 53,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "6c41089d8aeddbabd9e6674c2c064ce1c0383318a8129d7f41e43635e5899710",
+      "requested_at_utc": "2026-11-24T21:25:59.752404+00:00",
+      "latency_seconds": 0.4150221000309102,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:59 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=368",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 54,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "59a3826eb1151ca01aeaa1125318c679116e923f25a447bbf2b059247b9115d9",
+      "requested_at_utc": "2026-11-24T21:26:00.163661+00:00",
+      "latency_seconds": 0.41118150000693277,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:25:59 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=364",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 55,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "910a949c40d6bc04659494883dd8ad550943c4f8e86630b356728074877322b6",
+      "requested_at_utc": "2026-11-24T21:26:00.624789+00:00",
+      "latency_seconds": 0.4610525000025518,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:26:00 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=426",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 56,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "75a3f6d55af54e8e40e057ad7e51d82d3c12a20a3c9f9fa28150c792ae1b3d97",
+      "requested_at_utc": "2026-11-24T21:26:01.095518+00:00",
+      "latency_seconds": 0.4706462000031024,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:26:00 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=424",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 57,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "da2edec6dcca8a9f854f9132fe7e98e45884b81390d23f583489426f62dc97de",
+      "requested_at_utc": "2026-11-24T21:26:01.551956+00:00",
+      "latency_seconds": 0.4563616000232287,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:26:01 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=409",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 58,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "19b864c4d677aee0d04f33d677ad1207067e832499aba6d6d53aba3f633ca21f",
+      "requested_at_utc": "2026-11-24T21:26:02.007924+00:00",
+      "latency_seconds": 0.4559051000396721,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:26:01 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=419",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    },
+    {
+      "faq_id": 59,
+      "source": "real_gemini_embeddings_api",
+      "model": "gemini-embedding-2",
+      "text_sha256": "f20d3320af4300a0406d64c3130b8ece4a1d45cd6484882b2575a8bd7055711e",
+      "requested_at_utc": "2026-11-24T21:26:02.427026+00:00",
+      "latency_seconds": 0.41897430003155023,
+      "attempts": 1,
+      "api_metadata": {
+        "sdk_http_response": {
+          "headers": {
+            "content-type": "application/json; charset=UTF-8",
+            "vary": "Origin, X-Origin, Referer",
+            "content-encoding": "gzip",
+            "date": "Tue, 24 Nov 2026 21:26:02 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "x-xss-protection": "0",
+            "x-frame-options": "SAMEORIGIN",
+            "x-content-type-options": "nosniff",
+            "server-timing": "gfet4t7; dur=371",
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "transfer-encoding": "chunked"
+          }
+        }
+      }
+    }
+  ]
+}

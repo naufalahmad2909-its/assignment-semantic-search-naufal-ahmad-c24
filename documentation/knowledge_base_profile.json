@@ -1,0 +1,22 @@
+{
+  "entries": 59,
+  "columns": [
+    "faq_id",
+    "category",
+    "question",
+    "answer"
+  ],
+  "categories": {
+    "Pemesanan": 9,
+    "Pengiriman": 9,
+    "Pembayaran": 8,
+    "Pengembalian": 8,
+    "Akun": 7,
+    "Produk": 7,
+    "Promo": 6,
+    "Customer Service": 5
+  },
+  "missing_cells": 0,
+  "full_duplicates": 0,
+  "raw_sha256": "8c7bd6acb3271032790a422c0a86c2fbd867e7782ad567de5b3d3a8f64d5cd05"
+}
